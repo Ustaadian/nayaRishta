@@ -41,8 +41,8 @@ A comprehensive mapping of Pakistan's remarriage system including:
 
 ```
 naya-rishta/
-├── README.md                          # This file
-└── naya_rishta_complete.json          # Complete knowledge graph data
+├── README.md                                      # This file
+└── naya_rishta_knowledge_graph_data.json          # Complete knowledge graph data
 ```
 
 ## 🔍 Key Insights Discovered
