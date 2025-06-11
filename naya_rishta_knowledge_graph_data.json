@@ -1,0 +1,1511 @@
+      "uid": "rol_016",
+      "id": "female_remarriage_candidate",
+      "name": "Female Remarriage Candidate",
+      "category": "Applicant",
+      "description": "Previously married woman seeking new marriage after divorce or spousal death. Must complete all prior legal processes including proper Iddat completion verification and obtain eligibility documentation. Faces additional social scrutiny and potential family pressure regarding remarriage decisions. May encounter more complex verification procedures and social barriers, particularly regarding property rights from previous marriage and custody arrangements for existing children."
+    },
+    {
+      "uid": "rol_017",
+      "id": "existing_wife_consent_provider",
+      "name": "Existing Wife (Consent Provider)",
+      "category": "Stakeholder",
+      "description": "Current wife who must legally consent to her husband's additional marriage under Islamic polygamy laws. Required to provide formal written consent documentation, appear before authorities for verification, and confirm understanding of polygamous marriage implications. Must verify her consent is given freely without coercion. Her approval is mandatory legal requirement before husband can proceed with additional marriage registration, making her a critical stakeholder in the polygamous marriage verification process."
+    },
+    {
+      "uid": "rol_018",
+      "id": "imam_marriage_officiant",
+      "name": "Imam (Marriage Officiant)",
+      "category": "Religious Official",
+      "description": "Religious leader authorized to conduct Islamic marriage ceremonies (Nikah) and handle official marriage documentation. Performs the religious ceremony, ensures Islamic requirements are met, witnesses the marriage contract signing, completes Nikah Nama forms with bride and groom details, collects required documents from both parties, and submits complete marriage documentation to Union Council for official registration. Serves as both religious officiant and administrative coordinator, ensuring marriage meets both Islamic and legal requirements."
+    },
+    {
+      "uid": "rol_019",
+      "id": "children_custody_subjects",
+      "name": "Children (Custody Subjects)",
+      "category": "Affected Party",
+      "description": "Minor children whose custody arrangements must be determined during divorce proceedings and verified before parents' remarriage. Their welfare and custody status affects court decisions, arbitration outcomes, and remarriage eligibility verification. Custody arrangements include decisions about primary residence, visitation rights, financial support obligations, and educational responsibilities. Children's best interests are legally prioritized in divorce proceedings, and proper custody documentation is required before divorced parents can proceed with remarriage registration."
+    },
+    {
+      "uid": "rol_020",
+      "id": "witness",
+      "name": "Witness",
+      "category": "Support Role",
+      "description": "Individual providing testimony or verification during various legal processes including divorce filing, death registration, and marriage ceremonies. Must have valid CNIC and be willing to appear in person at offices or courts. Often family members or community members whose availability can create scheduling delays in the overall process."
+    }
+  ],
+
+  "departments": [
+    {
+      "uid": "dep_001",
+      "id": "union_council",
+      "name": "Union Council",
+      "description": "Local government administrative unit responsible for marriage and divorce registration at the grassroots level. Handles initial divorce application filing, marriage registrations for all types including first marriages and remarriages, witness coordination, and maintaining local marriage and divorce records. Serves as the primary interface between citizens and government for marital status changes. Union Councils operate in every locality across Pakistan, making them the most accessible government department for marriage-related services. They coordinate with arbitration councils for reconciliation processes and serve as the starting point for most marriage and divorce procedures."
+    },
+    {
+      "uid": "dep_002",
+      "id": "nadra",
+      "name": "NADRA (National Database and Registration Authority)",
+      "description": "Federal agency managing Pakistan's national identity database and all CNIC-related services. Responsible for updating marital status in the national database, issuing divorce certificates, death registration updates, and marriage status updates across all processes. NADRA serves as the central verification hub for marital status authentication, preventing bigamy through database cross-checks, and maintaining accurate citizen records. Their hybrid digital-manual systems handle certificate issuance, biometric verification, and database updates that are essential for legal compliance across all marriage and divorce processes. NADRA's role is critical as their certificates and database updates are required for legal validity of all marital status changes."
+    },
+    {
+      "uid": "dep_003",
+      "id": "family_courts",
+      "name": "Family Courts",
+      "description": "Specialized judicial department handling contested divorce cases, complex marital disputes, and legal proceedings requiring court intervention. Family Courts manage cases where Union Council procedures are insufficient, including contested divorces, Khula proceedings initiated by women, custody disputes involving children, and asset division conflicts. They conduct formal hearings, evaluate legal evidence, issue binding court decrees, and handle appeals from lower-level decisions. Family Courts also oversee inheritance and property disputes that can affect remarriage eligibility, particularly in widowhood cases where succession certificates are required. Their involvement typically extends process timelines significantly but provides legal recourse for complex marital situations."
+    },
+    {
+      "uid": "dep_004",
+      "id": "municipal_corporation",
+      "name": "Municipal Corporation",
+      "description": "Local government department responsible for marriage permission verification and preventing illegal marriages within their jurisdiction. Municipal offices serve as the final verification checkpoint before marriage registration, cross-checking divorce certificates, death certificates, and marriage records to ensure legal compliance and prevent bigamy cases. They maintain local marriage databases, coordinate with multiple government departments for document verification, and issue marriage permission letters required for Union Council registration. Municipal Corporations play a crucial role in the remarriage process by ensuring all prior legal requirements have been properly completed before allowing new marriage registration."
+    },
+    {
+      "uid": "dep_005",
+      "id": "civil_registration_department",
+      "name": "Civil Registration Department",
+      "description": "Government department managing vital statistics registration including births, deaths, and marriages at the district level. Handles official death registration processes, maintains permanent death records with registration numbers, coordinates witness statement collection, and creates civil registration documentation required for legal proceedings. This department works closely with medical facilities for death certificate processing and provides the official death records that serve as foundation for widowhood status establishment. Their records are essential for inheritance proceedings and remarriage eligibility verification for widowed individuals."
+    },
+    {
+      "uid": "dep_006",
+      "id": "health_department",
+      "name": "Health Department",
+      "description": "Government medical services department responsible for death certification through hospitals, clinics, and medical facilities under their jurisdiction. Medical officers within the Health Department conduct death verification, determine cause of death, complete official death certificate forms, and provide the initial medical documentation that enables all subsequent death-related processes. Health Department facilities operate 24/7 for emergency death certification needs and maintain medical records that support civil registration and legal proceedings. Their role is foundational in the widowhood process as their death certificates are required for all subsequent legal and administrative procedures."
+    },
+    {
+      "uid": "dep_007",
+      "id": "arbitration_council",
+      "name": "Arbitration Council",
+      "description": "Specialized mediation department within the Union Council system responsible for mandatory reconciliation sessions during divorce proceedings. Comprised of trained mediators who conduct compulsory reconciliation attempts, facilitate communication between divorcing parties, document session outcomes, and issue completion certificates required for divorce finalization. Arbitration Councils must complete 3 mandatory sessions over 30-45 days regardless of mutual consent, representing a significant component of the divorce timeline. Their role balances family preservation efforts with legal requirements, serving as a mandatory checkpoint in the divorce process before final legal dissolution can proceed."
+    },
+    {
+      "uid": "dep_008",
+      "id": "religious_affairs_department",
+      "name": "Religious Affairs Department",
+      "description": "Government department overseeing religious compliance and Islamic law adherence in marriage procedures. Coordinates with mosques and religious institutions for marriage ceremony oversight, ensures Imam certification and authorization for conducting Nikah ceremonies, and manages religious documentation requirements. This department plays a particularly important role in additional marriage processes where Islamic polygamy law compliance must be verified, including proper consent procedures and religious ceremony authentication. They serve as the bridge between religious traditions and legal requirements, ensuring marriages meet both Islamic and governmental standards."
+    }
+  ],
+
+  "documents": [
+    {
+      "uid": "doc_001",
+      "id": "form_a_divorce_application",
+      "name": "Form-A Divorce Application",
+      "type": "Input",
+      "category": "Form",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Single_use",
+      "description": "Initial divorce application form that must be completed and submitted to Union Council to start divorce proceedings. Requires both spouses' signatures and witness information."
+    },
+    {
+      "uid": "doc_002",
+      "id": "husband_cnic",
+      "name": "Husband's CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity card of the male spouse required for all marriage and divorce proceedings as primary identification document."
+    },
+    {
+      "uid": "doc_003",
+      "id": "wife_cnic",
+      "name": "Wife's CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity card of the female spouse required for all marriage and divorce proceedings as primary identification document."
+    },
+    {
+      "uid": "doc_004",
+      "id": "witness_cnic",
+      "name": "Witness CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity cards of witnesses (minimum 2) required to verify and authenticate legal proceedings including divorce filing and marriage registration."
+    },
+    {
+      "uid": "doc_005",
+      "id": "marriage_certificate",
+      "name": "Marriage Certificate",
+      "type": "Both",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Permanent",
+      "description": "Official marriage registration certificate proving legal marriage. Required as input for divorce proceedings and generated as output from marriage registration process."
+    },
+    {
+      "uid": "doc_006",
+      "id": "divorce_case_number",
+      "name": "Divorce Case Number",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Permanent",
+      "description": "Unique case identification number assigned by Union Council upon divorce application filing. Required to track divorce proceedings through all subsequent steps."
+    },
+    {
+      "uid": "doc_007",
+      "id": "arbitration_completion_certificate",
+      "name": "Arbitration Completion Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_007",
+      "validity_period": "Permanent",
+      "description": "Certificate confirming completion of mandatory 3 reconciliation sessions. Required before divorce can be finalized regardless of whether reconciliation was successful."
+    },
+    {
+      "uid": "doc_008",
+      "id": "court_divorce_decree",
+      "name": "Court Divorce Decree",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_003",
+      "validity_period": "Permanent",
+      "description": "Legally binding court order finalizing divorce in contested cases. Required for NADRA certificate issuance when divorce is processed through court system."
+    },
+    {
+      "uid": "doc_009",
+      "id": "nadra_divorce_certificate",
+      "name": "NADRA Divorce Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "Permanent",
+      "description": "Official divorce certificate issued by NADRA updating national database and confirming divorced status. Essential document for remarriage eligibility verification."
+    },
+    {
+      "uid": "doc_010",
+      "id": "marriage_permission_letter",
+      "name": "Marriage Permission Letter",
+      "type": "Output",
+      "category": "Letter",
+      "issuing_authority_uid": "dep_004",
+      "validity_period": "6_months",
+      "description": "Permission letter from municipal office confirming eligibility for new marriage registration. Required to prevent bigamy and ensure legal compliance before Union Council marriage registration."
+    },
+    {
+      "uid": "doc_011",
+      "id": "hospital_death_certificate",
+      "name": "Hospital Death Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_006",
+      "validity_period": "Permanent",
+      "description": "Initial death certificate issued by medical officer confirming death and cause. Foundation document required for all subsequent death registration and widowhood processes."
+    },
+    {
+      "uid": "doc_012",
+      "id": "civil_death_registration",
+      "name": "Civil Death Registration",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_005",
+      "validity_period": "Permanent",
+      "description": "Official government death registration creating permanent death record with registration number. Required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "doc_013",
+      "id": "updated_cnic_widowed",
+      "name": "Updated CNIC (Widowed Status)",
+      "type": "Output",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "Updated national identity card showing widowed marital status. Essential for establishing remarriage eligibility and legal status verification."
+    },
+    {
+      "uid": "doc_014",
+      "id": "succession_certificate",
+      "name": "Succession Certificate",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_003",
+      "validity_period": "Permanent",
+      "description": "Court-issued certificate establishing legal heirs and their inheritance rights. Required for property transfer and resolving inheritance disputes."
+    },
+    {
+      "uid": "doc_015",
+      "id": "eligibility_verification_letter",
+      "name": "Eligibility Verification Letter",
+      "type": "Output",
+      "category": "Letter",
+      "issuing_authority_uid": "dep_004",
+      "validity_period": "6_months",
+      "description": "Official verification letter confirming both parties are legally eligible for marriage. Required for Union Council marriage registration to prevent bigamy and ensure legal compliance."
+    },
+    {
+      "uid": "doc_016",
+      "id": "nikah_nama",
+      "name": "Nikah Nama (Marriage Contract)",
+      "type": "Both",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_008",
+      "validity_period": "Permanent",
+      "description": "Islamic marriage contract completed during Nikah ceremony and submitted to Union Council for official registration. Combines religious and legal marriage requirements."
+    },
+    {
+      "uid": "doc_017",
+      "id": "updated_cnic_married",
+      "name": "Updated CNIC (Married Status)",
+      "type": "Output",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "Updated national identity cards for both spouses showing married status and spouse information. Final step completing legal marriage process and database updates."
+    },
+    {
+      "uid": "doc_018",
+      "id": "existing_wife_consent_form",
+      "name": "Existing Wife Consent Form",
+      "type": "Input",
+      "category": "Form",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "6_months",
+      "description": "Formal written consent from existing wife(s) for husband's additional marriage under Islamic polygamy laws. Must be verified to ensure consent is given freely without coercion."
+    },
+    {
+      "uid": "doc_019",
+      "id": "financial_capability_certificate",
+      "name": "Financial Capability Certificate",
+      "type": "Input",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "3_months",
+      "description": "Certificate from financial institution confirming man's ability to financially support multiple families. Required for additional marriage approval under Islamic polygamy laws."
+    },
+    {
+      "uid": "doc_020",
+      "id": "polygamy_limit_verification",
+      "name": "Polygamy Limit Verification",
+      "type": "Both",
+      "category": "Administrative",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "Single_use",
+      "description": "Database verification confirming man has not exceeded Islamic law limit of 4 wives. Essential check before approving additional marriage registration."
+    }
+  ],
+
+  "system_interfaces": [
+    {
+      "uid": "int_001",
+      "id": "nadra_union_council_interface",
+      "name": "NADRA-Union Council Interface",
+      "system_a_uid": "sys_002",
+      "system_b_uid": "sys_001",
+      "current_integration": "None",
+      "integration_potential": "High",
+      "data_exchanged": ["marital_status_verification", "identity_authentication", "case_status_updates"],
+      "benefits": "Real-time marital status verification, reduced document fraud, faster processing",
+      "technical_complexity": "Medium"
+    },
+    {
+      "uid": "int_002",
+      "id": "nadra_municipal_interface",
+      "name": "NADRA-Municipal Corporation Interface",
+      "system_a_uid": "sys_002",
+      "system_b_uid": "sys_005",
+      "current_integration": "None",
+      "integration_potential": "High",
+      "data_exchanged": ["divorce_certificate_verification", "marriage_history_check", "bigamy_prevention"],
+      "benefits": "Automated bigamy prevention, instant certificate verification, reduced manual checking",
+      "technical_complexity": "Medium"
+    },
+    {
+      "uid": "int_003",
+      "id": "union_council_arbitration_interface",
+      "name": "Union Council-Arbitration Council Interface",
+      "system_a_uid": "sys_001",
+      "system_b_uid": "sys_004",
+      "current_integration": "Manual",
+      "integration_potential": "Medium",
+      "data_exchanged": ["case_referral", "session_scheduling", "completion_status"],
+      "benefits": "Automated case referral, scheduling coordination, status tracking",
+      "technical_complexity": "Low"
+    },
+    {
+      "uid": "int_004",
+      "id": "nadra_family_court_interface",
+      "name": "NADRA-Family Courts Interface",
+      "system_a_uid": "sys_002",
+      "system_b_uid": "sys_003",
+      "current_integration": "None",
+      "integration_potential": "Medium",
+      "data_exchanged": ["court_decree_updates", "marital_status_changes", "legal_case_tracking"],
+      "benefits": "Automatic database updates from court decisions, reduced manual certificate processing",
+      "technical_complexity": "High"
+    },
+    {
+      "uid": "int_005",
+      "id": "hospital_civil_registration_interface",
+      "name": "Hospital-Civil Registration Interface",
+      "system_a_uid": "sys_006",
+      "system_b_uid": "sys_007",
+      "current_integration": "Manual",
+      "integration_potential": "High",
+      "data_exchanged": ["death_certificate_data", "deceased_identity", "automatic_registration_trigger"],
+      "benefits": "Automated death registration initiation, reduced data entry errors, faster processing",
+      "technical_complexity": "Medium"
+    },
+    {
+      "uid": "int_006",
+      "id": "civil_registration_nadra_interface",
+      "name": "Civil Registration-NADRA Interface",
+      "system_a_uid": "sys_007",
+      "system_b_uid": "sys_008",
+      "current_integration": "None",
+      "integration_potential": "High",
+      "data_exchanged": ["death_registration_completion", "survivor_identification", "automatic_status_update"],
+      "benefits": "Automatic NADRA updates upon death registration, reduced processing time for widowed status",
+      "technical_complexity": "Medium"
+    },
+    {
+      "uid": "int_007",
+      "id": "municipal_pre_marriage_interface",
+      "name": "Municipal-Pre Marriage Verification Interface",
+      "system_a_uid": "sys_005",
+      "system_b_uid": "sys_011",
+      "current_integration": "Manual",
+      "integration_potential": "Medium",
+      "data_exchanged": ["verification_results", "eligibility_status", "permission_grants"],
+      "benefits": "Streamlined verification process, reduced duplication of checks, consistent eligibility standards",
+      "technical_complexity": "Low"
+    },
+    {
+      "uid": "int_008",
+      "id": "union_council_nadra_marriage_interface",
+      "name": "Union Council-NADRA Marriage Interface",
+      "system_a_uid": "sys_010",
+      "system_b_uid": "sys_012",
+      "current_integration": "Manual",
+      "integration_potential": "High",
+      "data_exchanged": ["marriage_registration_completion", "spouse_details", "automatic_cnic_update_trigger"],
+      "benefits": "Automatic NADRA updates upon marriage registration, reduced processing time, synchronized records",
+      "technical_complexity": "Medium"
+    },
+    {
+      "uid": "int_009",
+      "id": "family_court_property_interface",
+      "name": "Family Courts-Property Inheritance Interface",
+      "system_a_uid": "sys_003",
+      "system_b_uid": "sys_009",
+      "current_integration": "Manual",
+      "integration_potential": "Medium",
+      "data_exchanged": ["succession_certificates", "inheritance_orders", "property_transfer_authorization"],
+      "benefits": "Coordinated inheritance and divorce proceedings, reduced conflicts, clearer property rights",
+      "technical_complexity": "High"
+    },
+    {
+      "uid": "int_010",
+      "id": "nadra_cross_system_interface",
+      "name": "NADRA Cross-System Integration Hub",
+      "system_a_uid": "sys_002",
+      "system_b_uid": "sys_008",
+      "current_integration": "Partial",
+      "integration_potential": "Very_High",
+      "data_exchanged": ["unified_marital_status", "cross_process_verification", "comprehensive_citizen_records"],
+      "benefits": "Single source of truth for marital status, cross-process automation, comprehensive citizen lifecycle management",
+      "technical_complexity": "High"
+    }
+  ],
+
+  "relationships": {
+    "step_system": [
+      {
+        "step_uid": "stp_001",
+        "system_uid": "sys_001"
+      },
+      {
+        "step_uid": "stp_002",
+        "system_uid": "sys_004"
+      },
+      {
+        "step_uid": "stp_003",
+        "system_uid": "sys_003"
+      },
+      {
+        "step_uid": "stp_004",
+        "system_uid": "sys_002"
+      },
+      {
+        "step_uid": "stp_005",
+        "system_uid": "sys_005"
+      },
+      {
+        "step_uid": "stp_006",
+        "system_uid": "sys_006"
+      },
+      {
+        "step_uid": "stp_007",
+        "system_uid": "sys_007"
+      },
+      {
+        "step_uid": "stp_008",
+        "system_uid": "sys_008"
+      },
+      {
+        "step_uid": "stp_009",
+        "system_uid": "sys_009"
+      },
+      {
+        "step_uid": "stp_010",
+        "system_uid": "sys_011"
+      },
+      {
+        "step_uid": "stp_011",
+        "system_uid": "sys_010"
+      },
+      {
+        "step_uid": "stp_012",
+        "system_uid": "sys_012"
+      }
+    ],
+
+    "role_step": [
+      {
+        "role_uid": "rol_001",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_011",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_002",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_003",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_008",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_009",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_010",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_005",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_006",
+        "step_uid": "stp_006"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_006"
+      },
+      {
+        "role_uid": "rol_007",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_008"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_008"
+      },
+      {
+        "role_uid": "rol_008",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_009",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_010",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_005",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_017",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_018",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_001",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_012"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_012"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_012"
+      }
+    ],
+
+    "process_department": [
+      {
+        "process_uid": "prc_001",
+        "department_uid": "dep_001"
+      },
+      {
+        "process_uid": "prc_001",
+        "department_uid": "dep_007"
+      },
+      {
+        "process_uid": "prc_001",
+        "department_uid": "dep_003"
+      },
+      {
+        "process_uid": "prc_001",
+        "department_uid": "dep_002"
+      },
+      {
+        "process_uid": "prc_001",
+        "department_uid": "dep_004"
+      },
+      {
+        "process_uid": "prc_002",
+        "department_uid": "dep_006"
+      },
+      {
+        "process_uid": "prc_002",
+        "department_uid": "dep_005"
+      },
+      {
+        "process_uid": "prc_002",
+        "department_uid": "dep_002"
+      },
+      {
+        "process_uid": "prc_002",
+        "department_uid": "dep_003"
+      },
+      {
+        "process_uid": "prc_003",
+        "department_uid": "dep_001"
+      },
+      {
+        "process_uid": "prc_003",
+        "department_uid": "dep_002"
+      },
+      {
+        "process_uid": "prc_003",
+        "department_uid": "dep_008"
+      },
+      {
+        "process_uid": "prc_004",
+        "department_uid": "dep_004"
+      },
+      {
+        "process_uid": "prc_004",
+        "department_uid": "dep_001"
+      },
+      {
+        "process_uid": "prc_004",
+        "department_uid": "dep_002"
+      },
+      {
+        "process_uid": "prc_004",
+        "department_uid": "dep_008"
+      },
+      {
+        "process_uid": "prc_005",
+        "department_uid": "dep_004"
+      },
+      {
+        "process_uid": "prc_005",
+        "department_uid": "dep_001"
+      },
+      {
+        "process_uid": "prc_005",
+        "department_uid": "dep_002"
+      },
+      {
+        "process_uid": "prc_005",
+        "department_uid": "dep_008"
+      },
+      {
+        "process_uid": "prc_005",
+        "department_uid": "dep_003"
+      }
+    ],
+
+    "document_system": [
+      {
+        "document_uid": "doc_001",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_002",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_003",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_004",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_005",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_006",
+        "system_uid": "sys_001",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_006",
+        "system_uid": "sys_004",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_007",
+        "system_uid": "sys_004",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_007",
+        "system_uid": "sys_002",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_008",
+        "system_uid": "sys_003",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_008",
+        "system_uid": "sys_002",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_002",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_005",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_010",
+        "system_uid": "sys_005",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_010",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_006",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_007",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_008",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_007",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_008",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_009",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_013",
+        "system_uid": "sys_008",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_013",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_013",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_014",
+        "system_uid": "sys_009",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_015",
+        "system_uid": "sys_011",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_015",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_016",
+        "system_uid": "sys_010",
+        "relationship_type": "both"
+      },
+      {
+        "document_uid": "doc_017",
+        "system_uid": "sys_012",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_005",
+        "system_uid": "sys_012",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_018",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_019",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_020",
+        "system_uid": "sys_011",
+        "relationship_type": "both"
+      }
+    ],
+
+    "document_role": [
+      {
+        "document_uid": "doc_001",
+        "role_uid": "rol_012",
+        "relationship_type": "initiates"
+      },
+      {
+        "document_uid": "doc_001",
+        "role_uid": "rol_013",
+        "relationship_type": "initiates"
+      },
+      {
+        "document_uid": "doc_002",
+        "role_uid": "rol_012",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_002",
+        "role_uid": "rol_015",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_003",
+        "role_uid": "rol_013",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_003",
+        "role_uid": "rol_016",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_004",
+        "role_uid": "rol_020",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_006",
+        "role_uid": "rol_001",
+        "relationship_type": "assigns"
+      },
+      {
+        "document_uid": "doc_007",
+        "role_uid": "rol_002",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_008",
+        "role_uid": "rol_003",
+        "relationship_type": "authorizes"
+      },
+      {
+        "document_uid": "doc_009",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_010",
+        "role_uid": "rol_005",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_011",
+        "role_uid": "rol_006",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_012",
+        "role_uid": "rol_007",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_013",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_014",
+        "role_uid": "rol_003",
+        "relationship_type": "authorizes"
+      },
+      {
+        "document_uid": "doc_015",
+        "role_uid": "rol_005",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_016",
+        "role_uid": "rol_018",
+        "relationship_type": "completes"
+      },
+      {
+        "document_uid": "doc_017",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_018",
+        "role_uid": "rol_017",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_019",
+        "role_uid": "rol_015",
+        "relationship_type": "obtains"
+      },
+      {
+        "document_uid": "doc_020",
+        "role_uid": "rol_004",
+        "relationship_type": "verifies"
+      }
+    ],
+
+    "document_process": [
+      {
+        "document_uid": "doc_001",
+        "process_uid": "prc_001",
+        "relationship_type": "initiates_process"
+      },
+      {
+        "document_uid": "doc_009",
+        "process_uid": "prc_001",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_011",
+        "process_uid": "prc_002",
+        "relationship_type": "initiates_process"
+      },
+      {
+        "document_uid": "doc_013",
+        "process_uid": "prc_002",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_016",
+        "process_uid": "prc_003",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_003",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_015",
+        "process_uid": "prc_004",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_004",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_018",
+        "process_uid": "prc_005",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_019",
+        "process_uid": "prc_005",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_005",
+        "relationship_type": "completes_process"
+      }
+    ]
+  }
+}{
+  "metadata": {
+    "title": "Naya Rishta Knowledge Graph",
+    "description": "Complete mapping of Pakistan's remarriage system for service design",
+    "version": "2.0",
+    "created": "2025-01-12",
+    "updated": "2025-01-12",
+    "scope": "Divorce, Death, and Marriage processes in Pakistan with integration potential mapping"
+  },
+
+  "systems": [
+    {
+      "uid": "sys_001",
+      "id": "union_council_divorce",
+      "name": "Union Council Divorce Filing",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Multiple visits required, both spouses must appear, witness coordination needed",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form-filling literacy helpful, but staff can assist illiterate users",
+      "minimum_time_days": 3,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Complete divorce application filing at local Union Council office. Includes filling out Form-A (divorce application), providing CNICs of both spouses, arranging 2 witnesses with valid CNICs, paying filing fees, getting initial case number assignment. Staff manually enters data into ledger books. Both spouses must physically appear and sign documents. Initiates mandatory 3 months + 10 days Iddat period calculation. Office hours typically 9am-4pm, closed Fridays. Creates official divorce case file and begins arbitration council notification process."
+    },
+    {
+      "uid": "sys_002",
+      "id": "nadra_divorce_certificate",
+      "name": "NADRA Divorce Certificate",
+      "category": "Divorce",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Straightforward application but requires prior Union Council completion",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online portal requires digital literacy, NADRA centers needed for verification",
+      "minimum_time_days": 7,
+      "average_time_level": 3,
+      "average_time_description": "Up to 1 month",
+      "description": "Official divorce certificate issuance after Union Council process completion. Includes online application through NADRA portal with divorce case details, uploading Union Council completion documents, paying certificate fees online, biometric verification at NADRA center, manual document verification by NADRA staff, database update of marital status from married to divorced, printing and collection of official divorce certificate. Certificate required for all future marriage registrations and legal proceedings. Multiple NADRA centers available but verification queues cause delays."
+    },
+    {
+      "uid": "sys_003",
+      "id": "family_court_divorce",
+      "name": "Family Court Divorce",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 5,
+      "complexity_reason": "Court proceedings required, lawyer needed, multiple hearings, legal documentation complex",
+      "accessibility_level": 4,
+      "accessibility_reason": "Legal representation recommended, court procedures difficult for common people",
+      "minimum_time_days": 30,
+      "average_time_level": 4,
+      "average_time_description": "Up to 3 months",
+      "description": "Court-based divorce proceedings for contested cases or when Union Council route not available. Includes filing petition with court, paying court fees, serving notice to spouse, attending multiple hearings, presenting evidence and arguments, waiting for court decree, obtaining certified copies of judgment. Requires lawyer for navigation of legal procedures. Court schedules often delayed. Necessary for cases where mutual consent not available or Union Council jurisdiction issues exist."
+    },
+    {
+      "uid": "sys_004",
+      "id": "arbitration_council",
+      "name": "Arbitration Council",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Mandatory 3 sessions, both parties must attend, scheduling coordination required",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic communication skills needed, staff facilitates process",
+      "minimum_time_days": 45,
+      "average_time_level": 3,
+      "average_time_description": "Up to 1 month",
+      "description": "Mandatory reconciliation process after Union Council filing. Includes automatic scheduling of 3 sessions over 30-45 days, both spouses must attend each session, arbitrators attempt reconciliation through discussion, documenting session outcomes, issuing completion certificate if reconciliation fails. Sessions conducted at Union Council premises. Even when both parties want divorce, all 3 sessions are mandatory. Completion certificate required before final divorce processing."
+    },
+    {
+      "uid": "sys_005",
+      "id": "municipal_marriage_permission",
+      "name": "Municipal Marriage Permission",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Document verification process, single office visit usually sufficient",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic document handling, staff assists with verification",
+      "minimum_time_days": 3,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Pre-marriage verification system to confirm divorce completion before new marriage registration. Includes presenting divorce certificate from NADRA, Union Council completion documents, Arbitration Council certificate, identity verification of applicant, checking against marriage records database, issuing permission letter for new marriage registration. Required to prevent bigamy cases. Single office process but depends on having all prior documentation complete."
+    },
+    {
+      "uid": "sys_006",
+      "id": "hospital_death_certificate",
+      "name": "Hospital Death Certificate",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Medical verification required, form completion needed",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form filling, medical staff assists with process",
+      "minimum_time_days": 1,
+      "average_time_level": 1,
+      "average_time_description": "1-3 days",
+      "description": "Initial death certificate issuance from hospital or clinic where death occurred. Includes medical verification of death by doctor, completing death certificate form with cause of death, family member identification and signature, paying certificate fees, receiving initial death certificate copy. Required for all subsequent death-related processes. Available 24/7 in major hospitals but limited hours in smaller facilities."
+    },
+    {
+      "uid": "sys_007",
+      "id": "civil_registration_death",
+      "name": "Civil Registration Death",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Multiple documents required, witness statements, official registration process",
+      "accessibility_level": 2,
+      "accessibility_reason": "Form completion assistance available, but multiple office visits needed",
+      "minimum_time_days": 7,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Official death registration with local civil registration authority. Includes presenting hospital death certificate, providing deceased's CNIC and family details, arranging witness statements, filling registration forms, paying registration fees, receiving official death registration number. Creates permanent death record in government database. Required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "sys_008",
+      "id": "nadra_death_registration",
+      "name": "NADRA Death Registration",
+      "category": "Death",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Straightforward process but requires prior death certificates",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online application possible but NADRA center visit required for verification",
+      "minimum_time_days": 5,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "NADRA database update to mark person as deceased and update survivor's marital status. Includes online or in-person application, uploading death certificates, providing survivor's CNIC, biometric verification at NADRA center, database status update from married to widowed, issuing updated CNIC showing widowed status. Essential for remarriage eligibility and legal documentation."
+    },
+    {
+      "uid": "sys_009",
+      "id": "property_inheritance",
+      "name": "Property Inheritance Documentation",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 4,
+      "complexity_reason": "Complex legal procedures, multiple stakeholders, potential family disputes",
+      "accessibility_level": 4,
+      "accessibility_reason": "Legal assistance recommended, complex documentation processes",
+      "minimum_time_days": 30,
+      "average_time_level": 4,
+      "average_time_description": "Up to 3 months",
+      "description": "Legal documentation of inheritance and property transfer after death. Includes obtaining succession certificate from court, property valuation and documentation, resolving family disputes over inheritance, transferring property titles, updating ownership records, obtaining legal heir certificates. Often becomes contentious with opposing family members blocking access to documents. Can significantly delay remarriage process for widows."
+    },
+    {
+      "uid": "sys_010",
+      "id": "union_council_marriage",
+      "name": "Union Council Marriage Registration",
+      "category": "New Marriage",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Document verification needed, witness coordination, but straightforward process",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form completion, staff assistance available",
+      "minimum_time_days": 1,
+      "average_time_level": 1,
+      "average_time_description": "Same day to 3 days",
+      "description": "Official marriage registration and certificate issuance. Includes presenting eligibility documents (divorce certificate or death certificate), providing CNICs of bride and groom, arranging 2 witnesses with valid CNICs, completing Nikah Nama forms, paying registration fees, receiving marriage certificate. Requires pre-verification that both parties are legally eligible to marry. Same-day processing possible if all documents complete."
+    },
+    {
+      "uid": "sys_011",
+      "id": "pre_marriage_verification",
+      "name": "Pre-Marriage Verification",
+      "category": "New Marriage",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Cross-checking multiple databases, document authentication required",
+      "accessibility_level": 3,
+      "accessibility_reason": "Multiple office coordination needed, some technical verification processes",
+      "minimum_time_days": 5,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Comprehensive verification system to confirm both parties are legally eligible for marriage. Includes checking NADRA database for current marital status, verifying divorce certificates authenticity, confirming death certificates for widowed applicants, cross-referencing with Union Council records, checking for any pending legal cases, issuing eligibility confirmation letter. Prevents bigamy and ensures legal compliance before marriage registration."
+    },
+    {
+      "uid": "sys_012",
+      "id": "nadra_marriage_update",
+      "name": "NADRA Marriage Update",
+      "category": "New Marriage",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Simple update process but requires marriage certificate verification",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online application available but center visit needed for verification",
+      "minimum_time_days": 7,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "NADRA database update to reflect new marriage and issue updated CNICs. Includes presenting marriage certificate from Union Council, online or in-person application for CNIC update, biometric verification at NADRA center, database marital status update, printing new CNICs showing married status and spouse details. Final step to complete legal marriage process and update all official records."
+    }
+  ],
+
+  "processes": [
+    {
+      "uid": "prc_001",
+      "id": "divorce_process",
+      "name": "Divorce Process",
+      "description": "Comprehensive legal process for terminating marriage in Pakistan, involving multiple government departments and mandatory waiting periods. The process begins with Union Council filing where both spouses must appear with witnesses to submit Form-A and initiate a 3 months + 10 days Iddat period. This is followed by mandatory arbitration council sessions for reconciliation attempts, even in mutual consent cases. For contested divorces, formal court proceedings may be required with legal representation. After completing all requirements and waiting periods, NADRA issues official divorce certificates that update marital status in national database. The process concludes with municipal verification for future marriage eligibility. Total timeline typically ranges from 6+ months for simple cases to over a year for complex contested divorces. Gender-specific challenges exist, with women often facing additional procedural barriers and requiring court proceedings (Khula) more frequently than men."
+    },
+    {
+      "uid": "prc_002",
+      "id": "widowhood_process",
+      "name": "Widowhood Process",
+      "description": "Legal documentation process required when a spouse dies, enabling the surviving spouse to establish widowed status for potential remarriage. The process starts with immediate death certification from hospital or medical facility where death occurred, including medical verification and cause of death documentation. This is followed by official death registration with civil authorities, requiring witness statements and permanent record creation. NADRA then updates the surviving spouse's marital status from married to widowed in national database, issuing updated CNIC reflecting new status. For complex cases, inheritance and property documentation may be required, often involving court proceedings for succession certificates and property transfers. This step can become contentious when family disputes arise over inheritance rights, particularly affecting women's access to required documentation. The process timeline varies from 2-4 weeks for straightforward cases to several months when property disputes are involved. Completion of death process documentation is essential for establishing remarriage eligibility."
+    },
+    {
+      "uid": "prc_003",
+      "id": "first_marriage_process",
+      "name": "First Marriage Process",
+      "description": "Streamlined marriage process for individuals who have never been married before, representing the simplest path to marriage registration in Pakistan. The process begins with basic eligibility verification including age confirmation, CNIC validation, and family consent documentation. No prior marital status verification is required since applicants have no previous marriage history. The religious ceremony (Nikah) is conducted by an Imam who completes Nikah Nama forms, while Union Council handles administrative registration requiring identity documents, witness coordination, and fee payment. NADRA then updates the national database to reflect first-time married status and issues new CNICs showing married status with spouse details. The process can typically be completed in 1-3 days when all documentation is properly prepared, making it the most efficient marriage pathway. This process serves as the baseline for marriage registration procedures before complexity increases with subsequent marriages or remarriage scenarios."
+    },
+    {
+      "uid": "prc_004",
+      "id": "remarriage_process",
+      "name": "Remarriage Process",
+      "description": "Comprehensive marriage process for previously married individuals (divorced or widowed) seeking to enter new marriages after completing prior legal processes. The process requires completion of either divorce or widowhood documentation as prerequisites, followed by extensive pre-marriage eligibility verification including NADRA database checks, divorce certificate authentication, death certificate verification, and cross-referencing with multiple government systems to prevent bigamy. Both parties must demonstrate legal eligibility for marriage through proper documentation from previous marriage termination. The marriage ceremony combines religious (Nikah) and legal requirements, with Imam conducting the religious ceremony while completing official Nikah Nama forms for government registration. Union Council handles administrative registration requiring all eligibility documents, witness coordination, and fee payment. The process concludes with NADRA database updates to reflect new marital status. Processing time varies from same-day when documentation is complete to several weeks if additional verification is required. This process emphasizes thorough legal compliance while facilitating second chances at marriage."
+    },
+    {
+      "uid": "prc_005",
+      "id": "additional_marriage_process",
+      "name": "Additional Marriage Process",
+      "description": "Specialized marriage process for currently married men seeking to add additional wives (2nd, 3rd, or 4th) under Islamic polygamy laws, representing the most complex marriage scenario due to multiple stakeholder coordination requirements. The process begins with mandatory consent documentation from all existing wives, who must provide formal written approval and appear before authorities for verification to ensure consent is given freely without coercion. Financial capability assessment is required to demonstrate ability to support multiple families adequately, including income verification and household expense calculations. Comprehensive eligibility verification includes polygamy limit checks (maximum 4 wives), existing marriage status confirmation, and new bride's eligibility verification. The religious ceremony (Nikah) involves additional Islamic law compliance verification, while administrative registration requires consent documentation, financial assessments, and witness coordination for all parties involved. NADRA updates include adding new spouse to existing married person's record while maintaining existing marriage records. The process involves the most stakeholders and longest verification procedures, typically requiring 2-4 weeks for completion due to consent coordination and financial verification requirements. This process balances religious permissions with legal safeguards for all parties involved."
+    }
+  ],
+
+  "steps": [
+    {
+      "uid": "stp_001",
+      "id": "divorce_application_filing",
+      "name": "Divorce Application Filing",
+      "process_uid": "prc_001",
+      "description": "Initial filing of divorce paperwork at Union Council including Form-A completion, CNIC submission of both spouses, witness arrangement, fee payment, and case number assignment. Both parties must physically appear and sign documents to initiate the legal divorce process and begin Iddat period calculation."
+    },
+    {
+      "uid": "stp_002",
+      "id": "mandatory_reconciliation_sessions",
+      "name": "Mandatory Reconciliation Sessions",
+      "process_uid": "prc_001",
+      "description": "Compulsory attendance at 3 arbitration sessions scheduled over 30-45 days where trained arbitrators attempt to reconcile the couple through guided discussions. Even in mutual consent cases, all sessions must be completed. Sessions document outcomes and issue completion certificate required for final divorce processing."
+    },
+    {
+      "uid": "stp_003",
+      "id": "court_proceedings_contested",
+      "name": "Court Proceedings for Contested Cases",
+      "process_uid": "prc_001",
+      "description": "Formal court proceedings for disputed divorces including petition filing, legal notice service, multiple hearing attendance, evidence presentation, and awaiting court decree. Requires legal representation and can involve complex procedures for asset division and custody matters. Court schedules often experience significant delays."
+    },
+    {
+      "uid": "stp_004",
+      "id": "official_divorce_certificate",
+      "name": "Official Divorce Certificate Issuance",
+      "process_uid": "prc_001",
+      "description": "Digital application through NADRA portal or in-person submission for official divorce certificate. Includes document upload, fee payment, biometric verification at NADRA center, manual verification by staff, database marital status update from married to divorced, and certificate printing. Required for all future legal and marriage-related procedures."
+    },
+    {
+      "uid": "stp_005",
+      "id": "marriage_permission_verification",
+      "name": "Marriage Permission Verification",
+      "process_uid": "prc_001",
+      "description": "Pre-remarriage verification process where divorced individuals present complete documentation to municipal office for eligibility confirmation. Involves cross-checking divorce certificates, Union Council records, and marriage database to prevent bigamy cases. Issues permission letter required for new marriage registration."
+    },
+    {
+      "uid": "stp_006",
+      "id": "initial_death_certification",
+      "name": "Initial Death Certification",
+      "process_uid": "prc_002",
+      "description": "Medical verification and documentation of death at hospital or clinic including doctor's examination, cause of death determination, completion of death certificate form, family member identification verification, and fee payment. Creates the primary legal document establishing death that enables all subsequent processes."
+    },
+    {
+      "uid": "stp_007",
+      "id": "official_death_registration",
+      "name": "Official Death Registration",
+      "process_uid": "prc_002",
+      "description": "Legal registration of death with civil authorities including submission of hospital death certificate, deceased's identity documentation, family detail provision, witness statement arrangement, registration form completion, and fee payment. Creates permanent government death record with official registration number for legal proceedings."
+    },
+    {
+      "uid": "stp_008",
+      "id": "marital_status_update_widowed",
+      "name": "Marital Status Update to Widowed",
+      "process_uid": "prc_002",
+      "description": "NADRA database update process to officially change surviving spouse's marital status from married to widowed. Includes death certificate submission, survivor's CNIC verification, biometric confirmation at NADRA center, database status modification, and updated CNIC issuance showing widowed status. Essential for remarriage eligibility establishment."
+    },
+    {
+      "uid": "stp_009",
+      "id": "inheritance_property_documentation",
+      "name": "Inheritance and Property Documentation",
+      "process_uid": "prc_002",
+      "description": "Complex legal process for documenting inheritance rights and property transfers including succession certificate application, property valuation, family dispute resolution, ownership transfer procedures, and legal heir certificate acquisition. Often involves court proceedings and can face opposition from extended family members, particularly affecting women's access to required documentation."
+    },
+    {
+      "uid": "stp_010",
+      "id": "pre_marriage_eligibility_verification",
+      "name": "Pre-Marriage Eligibility Verification",
+      "process_uid": "prc_004",
+      "description": "Comprehensive verification system confirming both parties' legal eligibility for marriage including NADRA database marital status check, divorce certificate authentication, death certificate verification for widowed applicants, Union Council record cross-reference, pending legal case review, and eligibility confirmation letter issuance to prevent bigamy and ensure legal compliance."
+    },
+    {
+      "uid": "stp_011",
+      "id": "marriage_registration_nikah",
+      "name": "Marriage Registration and Nikah",
+      "process_uid": "prc_004",
+      "description": "Official marriage ceremony and registration process including eligibility document presentation, bride and groom CNIC verification, witness arrangement with valid identification, Nikah Nama form completion, registration fee payment, and marriage certificate issuance. Can be completed same-day if all documentation is properly prepared and verified."
+    },
+    {
+      "uid": "stp_012",
+      "id": "cnic_update_new_marriage",
+      "name": "CNIC Update for New Marriage",
+      "process_uid": "prc_004",
+      "description": "Final administrative step updating national database and identity cards to reflect new marriage including marriage certificate submission to NADRA, online or in-person application completion, biometric verification at NADRA center, database marital status update to married, spouse detail addition, and new CNIC printing with updated marital information completing the legal marriage process."
+    }
+  ],
+
+  "roles": [
+    {
+      "uid": "rol_001",
+      "id": "union_council_secretary",
+      "name": "Union Council Secretary",
+      "category": "Government Official",
+      "description": "Government official responsible for processing divorce applications and marriage registrations at Union Council level. Handles Form-A completion, document verification, witness coordination, fee collection, and case file creation. Maintains manual ledger records and initiates arbitration council notifications. Works standard government hours and serves as primary point of contact for divorce and marriage procedures."
+    },
+    {
+      "uid": "rol_002",
+      "id": "arbitration_council_member",
+      "name": "Arbitration Council Member",
+      "category": "Government Official",
+      "description": "Trained mediator appointed to conduct mandatory reconciliation sessions between divorcing couples. Facilitates 3 compulsory sessions over 30-45 days, attempts conflict resolution through guided discussions, documents session outcomes, and issues completion certificates. Must remain neutral while encouraging reconciliation even in mutual consent cases."
+    },
+    {
+      "uid": "rol_003",
+      "id": "family_court_judge",
+      "name": "Family Court Judge",
+      "category": "Government Official",
+      "description": "Judicial officer presiding over contested divorce cases and complex marital disputes. Reviews legal petitions, conducts hearings, evaluates evidence and witness testimonies, makes custody and asset division decisions, and issues legally binding court decrees. Handles cases where Union Council route is not viable or when legal disputes arise."
+    },
+    {
+      "uid": "rol_004",
+      "id": "nadra_officer",
+      "name": "NADRA Officer",
+      "category": "Government Official",
+      "description": "Technical specialist managing database updates and certificate issuance for marital status changes. Processes divorce certificates, death registrations, and marriage updates through digital and manual verification. Conducts biometric verification, authenticates supporting documents, updates national database records, and ensures data accuracy across all marital status transitions."
+    },
+    {
+      "uid": "rol_005",
+      "id": "municipal_registration_officer",
+      "name": "Municipal Registration Officer",
+      "category": "Government Official",
+      "description": "Government official verifying marriage eligibility and preventing bigamy cases. Cross-checks divorce certificates, death certificates, and marriage records against multiple databases. Issues marriage permission letters and ensures legal compliance before allowing new marriage registrations. Serves as final verification step before remarriage approval."
+    },
+    {
+      "uid": "rol_006",
+      "id": "medical_officer",
+      "name": "Medical Officer",
+      "category": "Government Official",
+      "description": "Licensed physician responsible for death verification and initial death certificate issuance. Conducts medical examination of deceased, determines cause of death, completes official death certificate forms, verifies family member identities, and provides primary legal documentation establishing death. Available in hospitals and clinics for immediate death certification needs."
+    },
+    {
+      "uid": "rol_007",
+      "id": "civil_registrar",
+      "name": "Civil Registrar",
+      "category": "Government Official",
+      "description": "Government official managing official death registration and permanent record creation. Processes hospital death certificates, verifies deceased identity documentation, coordinates witness statements, maintains civil registration databases, and issues official death registration numbers. Creates permanent government death records required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "rol_008",
+      "id": "court_clerk",
+      "name": "Court Clerk",
+      "category": "Government Official",
+      "description": "Administrative staff supporting court proceedings for inheritance and property disputes. Manages case filing, schedules hearings, maintains court records, processes succession certificate applications, and coordinates between parties and legal representatives. Handles documentation for complex inheritance cases that often delay remarriage processes."
+    },
+    {
+      "uid": "rol_009",
+      "id": "husbands_lawyer",
+      "name": "Husband's Lawyer",
+      "category": "Legal Professional",
+      "description": "Legal professional representing the male spouse in divorce proceedings, property disputes, or complex remarriage cases. Provides legal strategy for protecting husband's interests, handles court representation for asset division and custody matters, assists with documentation for polygamous marriage requirements, and ensures compliance with legal procedures. Particularly important in contested divorces where interests of both parties may conflict and require separate legal advocacy."
+    },
+    {
+      "uid": "rol_010",
+      "id": "wifes_lawyer",
+      "name": "Wife's Lawyer",
+      "category": "Legal Professional",
+      "description": "Legal professional representing the female spouse, particularly crucial in Pakistan's legal system where women face additional procedural barriers. Specializes in women's rights protection, Khula proceedings, property rights advocacy, and challenging unfair divorce terms. Provides essential support for navigating complex legal procedures that women often find difficult to handle independently, especially when facing family pressure or uncooperative spouses."
+    },
+    {
+      "uid": "rol_011",
+      "id": "document_agent",
+      "name": "Document Agent",
+      "category": "Support Role",
+      "description": "Unofficial intermediary who assists people in navigating bureaucratic processes and document preparation. Helps with form completion, queue management, fee payment, and coordination between different offices. Often used by illiterate citizens or those unfamiliar with government procedures, though not officially part of the system."
+    },
+    {
+      "uid": "rol_012",
+      "id": "husband_seeking_divorce",
+      "name": "Husband Seeking Divorce",
+      "category": "Applicant",
+      "description": "Male spouse initiating divorce proceedings with relatively straightforward access to Union Council processes. Can file for divorce (Talaq) with simpler documentation requirements and typically faces fewer procedural barriers. Has legal authority to initiate divorce unilaterally in most cases, though still must complete mandatory arbitration sessions and waiting periods before remarriage eligibility."
+    },
+    {
+      "uid": "rol_013",
+      "id": "wife_seeking_divorce",
+      "name": "Wife Seeking Divorce",
+      "category": "Applicant",
+      "description": "Female spouse seeking divorce who faces additional procedural and social barriers in Pakistan's patriarchal system. May need to pursue Khula through court proceedings with legal representation, provide justification for divorce request, and overcome potential family/social opposition. Often requires more extensive documentation and faces longer processing times due to additional verification requirements and potential spouse non-cooperation."
+    },
+    {
+      "uid": "rol_014",
+      "id": "widowed_person",
+      "name": "Widowed Person",
+      "category": "Applicant",
+      "description": "Individual whose spouse has died and needs to update their legal status for potential remarriage. Must manage death certification, official registration, NADRA status updates, and often complex inheritance documentation. Faces additional challenges when family disputes arise over property rights or when opposing relatives block access to necessary documents."
+    },
+    {
+      "uid": "rol_015",
+      "id": "male_remarriage_candidate",
+      "name": "Male Remarriage Candidate",
+      "category": "Applicant",
+      "description": "Previously married man seeking new marriage after divorce or spousal death. Must complete all prior legal processes and obtain eligibility verification. If seeking additional marriage (up to 4 wives permitted under Islamic law), requires consent documentation from existing wife/wives, proof of financial capability to support multiple families, and additional verification procedures. Faces scrutiny to ensure polygamy compliance with legal requirements including spousal consent and adequate financial support."
+    },
+    {
+      "uid": "rol_016",
+      "id": "female_remarriage_candidate",
+      "name": "Female Remarriage Candidate",
+      
