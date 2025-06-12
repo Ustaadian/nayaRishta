@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "title": "Naya Rishta Stages",
+    "description": "User journey stages in Pakistan's remarriage system",
+    "version": "2.0",
+    "created": "2025-06-12",
+    "updated": "2025-06-12"
+  },
+
+  "stages": [
+    {
+      "uid": "stg_001",
+      "id": "pre_filing_contemplation",
+      "name": "Pre-Filing Contemplation",
+      "process_uid": "prc_001",
+      "duration_min_days": 7,
+      "duration_max_days": 180,
+      "emotional_state": "Unhappy",
+      "primary_needs": "Information, Guidance, Emotional Support",
+      "system_involvement": "None",
+      "description": "Individual or couple considering divorce but haven't started legal process. Researching procedures, collecting documents, possibly seeking counseling. High anxiety about process complexity and social implications."
+    },
+    {
+      "uid": "stg_002", 
+      "id": "initial_filing",
+      "name": "Initial Filing",
+      "process_uid": "prc_001",
+      "duration_min_days": 1,
+      "duration_max_days": 7,
+      "emotional_state": "Unhappy",
+      "primary_needs": "Process Navigation, Next Steps Clarity",
+      "system_involvement": "Union Council",
+      "description": "Filed Form-A at Union Council, received case number, 90-day Iddat period begun. Both spouses have appeared and signed documents. Arbitration sessions scheduled but uncertainty about what comes next."
+    },
+    {
+      "uid": "stg_003",
+      "id": "arbitration_process", 
+      "name": "Arbitration Process",
+      "process_uid": "prc_001",
+      "duration_min_days": 30,
+      "duration_max_days": 60,
+      "emotional_state": "Very Unhappy",
+      "primary_needs": "Session Preparation, Emotional Support",
+      "system_involvement": "Arbitration Council",
+      "description": "Attending mandatory reconciliation sessions. May be going through motions if reconciliation unwanted. Experiencing pressure from arbitrators and family to reconcile. Scheduling conflicts with work/life."
+    },
+    {
+      "uid": "stg_004",
+      "id": "court_proceedings",
+      "name": "Court Proceedings", 
+      "process_uid": "prc_001",
+      "duration_min_days": 30,
+      "duration_max_days": 365,
+      "emotional_state": "Very Unhappy",
+      "primary_needs": "Legal Representation, Court Navigation",
+      "system_involvement": "Family Courts",
+      "description": "Case moved to Family Court for contested proceedings. Legal representation engaged, court hearings scheduled. Complex asset division or custody issues being resolved. High legal costs and unpredictable timelines."
+    },
+    {
+      "uid": "stg_005",
+      "id": "waiting_finalization",
+      "name": "Waiting for Finalization",
+      "process_uid": "prc_001", 
+      "duration_min_days": 7,
+      "duration_max_days": 30,
+      "emotional_state": "Unhappy",
+      "primary_needs": "Status Updates, Future Planning",
+      "system_involvement": "Administrative Processing",
+      "description": "Arbitration complete or court decree issued. Legal requirements met but administrative processing ongoing. Iddat period may still be running. Planning life changes while status remains unclear."
+    },
+    {
+      "uid": "stg_006",
+      "id": "nadra_processing",
+      "name": "NADRA Certificate Processing",
+      "process_uid": "prc_001",
+      "duration_min_days": 7,
+      "duration_max_days": 30,
+      "emotional_state": "Happy",
+      "primary_needs": "Application Support, Status Tracking",
+      "system_involvement": "NADRA",
+      "description": "Applying for official divorce certificate through NADRA portal or centers. Undergoing biometric verification, waiting for database updates. May require multiple center visits due to document issues."
+    },
+    {
+      "uid": "stg_007",
+      "id": "municipal_verification",
+      "name": "Municipal Verification",
+      "process_uid": "prc_004",
+      "duration_min_days": 3,
+      "duration_max_days": 14,
+      "emotional_state": "Happy",
+      "primary_needs": "Fast Processing, Remarriage Guidance",
+      "system_involvement": "Municipal Corporation",
+      "description": "Seeking marriage permission for remarriage. Verifying eligibility with municipal office, cross-checking marriage databases. Planning new relationship while completing final bureaucratic requirements."
+    },
+    {
+      "uid": "stg_008",
+      "id": "post_divorce_transition",
+      "name": "Post-Divorce Transition", 
+      "process_uid": "prc_004",
+      "duration_min_days": 30,
+      "duration_max_days": 365,
+      "emotional_state": "Very Happy",
+      "primary_needs": "Life Transition Support, Community",
+      "system_involvement": "Various Social Services",
+      "description": "Divorce legally complete, adjusting to new life status. May be planning remarriage or focusing on independence. Dealing with social stigma, financial adjustments, and co-parenting arrangements if applicable."
+    }
+  ],
+
+  "relationships": {
+    "stage_system": [
+      {
+        "stage_uid": "stg_002",
+        "system_uid": "sys_001",
+        "interaction_type": "primary_touchpoint",
+        "user_dependency": "critical"
+      },
+      {
+        "stage_uid": "stg_003", 
+        "system_uid": "sys_004",
+        "interaction_type": "primary_touchpoint",
+        "user_dependency": "critical"
+      },
+      {
+        "stage_uid": "stg_004",
+        "system_uid": "sys_003", 
+        "interaction_type": "primary_touchpoint",
+        "user_dependency": "critical"
+      },
+      {
+        "stage_uid": "stg_006",
+        "system_uid": "sys_002",
+        "interaction_type": "primary_touchpoint", 
+        "user_dependency": "critical"
+      },
+      {
+        "stage_uid": "stg_007",
+        "system_uid": "sys_005",
+        "interaction_type": "primary_touchpoint",
+        "user_dependency": "critical"
+      },
+      {
+        "stage_uid": "stg_007",
+        "system_uid": "sys_011",
+        "interaction_type": "secondary_touchpoint",
+        "user_dependency": "moderate"
+      },
+      {
+        "stage_uid": "stg_008",
+        "system_uid": "sys_010",
+        "interaction_type": "future_touchpoint",
+        "user_dependency": "optional"
+      },
+      {
+        "stage_uid": "stg_008",
+        "system_uid": "sys_012",
+        "interaction_type": "future_touchpoint", 
+        "user_dependency": "optional"
+      }
+    ],
+
+    "stage_role": [
+      {
+        "stage_uid": "stg_001",
+        "role_uid": "rol_011",
+        "interaction_type": "guidance_seeking"
+      },
+      {
+        "stage_uid": "stg_002",
+        "role_uid": "rol_001",
+        "interaction_type": "service_provider"
+      },
+      {
+        "stage_uid": "stg_002", 
+        "role_uid": "rol_012",
+        "interaction_type": "applicant"
+      },
+      {
+        "stage_uid": "stg_002",
+        "role_uid": "rol_013", 
+        "interaction_type": "applicant"
+      },
+      {
+        "stage_uid": "stg_002",
+        "role_uid": "rol_020",
+        "interaction_type": "supporting_role"
+      },
+      {
+        "stage_uid": "stg_003",
+        "role_uid": "rol_002",
+        "interaction_type": "service_provider"
+      },
+      {
+        "stage_uid": "stg_003",
+        "role_uid": "rol_012",
+        "interaction_type": "participant"
+      },
+      {
+        "stage_uid": "stg_003",
+        "role_uid": "rol_013",
+        "interaction_type": "participant"
+      },
+      {
+        "stage_uid": "stg_004",
+        "role_uid": "rol_003",
+        "interaction_type": "service_provider"
+      },
+      {
+        "stage_uid": "stg_004",
+        "role_uid": "rol_009",
+        "interaction_type": "legal_support"
+      },
+      {
+        "stage_uid": "stg_004",
+        "role_uid": "rol_010",
+        "interaction_type": "legal_support"
+      },
+      {
+        "stage_uid": "stg_006",
+        "role_uid": "rol_004",
+        "interaction_type": "service_provider"
+      },
+      {
+        "stage_uid": "stg_007",
+        "role_uid": "rol_005",
+        "interaction_type": "service_provider"
+      },
+      {
+        "stage_uid": "stg_007",
+        "role_uid": "rol_015",
+        "interaction_type": "applicant"
+      },
+      {
+        "stage_uid": "stg_007", 
+        "role_uid": "rol_016",
+        "interaction_type": "applicant"
+      }
+    ],
+
+    "stage_document": [
+      {
+        "stage_uid": "stg_001",
+        "document_uid": "doc_002",
+        "relationship_type": "preparation_needed"
+      },
+      {
+        "stage_uid": "stg_001",
+        "document_uid": "doc_003", 
+        "relationship_type": "preparation_needed"
+      },
+      {
+        "stage_uid": "stg_001",
+        "document_uid": "doc_005",
+        "relationship_type": "preparation_needed"
+      },
+      {
+        "stage_uid": "stg_002",
+        "document_uid": "doc_001",
+        "relationship_type": "primary_input"
+      },
+      {
+        "stage_uid": "stg_002",
+        "document_uid": "doc_006",
+        "relationship_type": "generated_output"
+      },
+      {
+        "stage_uid": "stg_003",
+        "document_uid": "doc_006",
+        "relationship_type": "reference_document"
+      },
+      {
+        "stage_uid": "stg_003",
+        "document_uid": "doc_007",
+        "relationship_type": "generated_output"
+      },
+      {
+        "stage_uid": "stg_004",
+        "document_uid": "doc_008",
+        "relationship_type": "generated_output"
+      },
+      {
+        "stage_uid": "stg_005",
+        "document_uid": "doc_007",
+        "relationship_type": "completion_proof"
+      },
+      {
+        "stage_uid": "stg_005",
+        "document_uid": "doc_008",
+        "relationship_type": "completion_proof"
+      },
+      {
+        "stage_uid": "stg_006",
+        "document_uid": "doc_007",
+        "relationship_type": "required_input"
+      },
+      {
+        "stage_uid": "stg_006",
+        "document_uid": "doc_008",
+        "relationship_type": "required_input"
+      },
+      {
+        "stage_uid": "stg_006",
+        "document_uid": "doc_009",
+        "relationship_type": "generated_output"
+      },
+      {
+        "stage_uid": "stg_007",
+        "document_uid": "doc_009",
+        "relationship_type": "required_input"
+      },
+      {
+        "stage_uid": "stg_007",
+        "document_uid": "doc_010",
+        "relationship_type": "generated_output"
+      },
+      {
+        "stage_uid": "stg_007",
+        "document_uid": "doc_015",
+        "relationship_type": "generated_output"
+      }
+    ]
+  }
+}

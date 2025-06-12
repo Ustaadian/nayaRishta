@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "title": "Naya Rishta Roles",
+    "description": "All roles and stakeholders in Pakistan's remarriage system",
+    "version": "2.0",
+    "created": "2025-06-12",
+    "updated": "2025-06-12"
+  },
+
+  "roles": [
+    {
+      "uid": "rol_001",
+      "id": "union_council_secretary",
+      "name": "Union Council Secretary",
+      "category": "Government Official",
+      "description": "Government official responsible for processing divorce applications and marriage registrations at Union Council level. Handles Form-A completion, document verification, witness coordination, fee collection, and case file creation. Maintains manual ledger records and initiates arbitration council notifications. Works standard government hours and serves as primary point of contact for divorce and marriage procedures."
+    },
+    {
+      "uid": "rol_002",
+      "id": "arbitration_council_member",
+      "name": "Arbitration Council Member",
+      "category": "Government Official",
+      "description": "Trained mediator appointed to conduct mandatory reconciliation sessions between divorcing couples. Facilitates 3 compulsory sessions over 30-45 days, attempts conflict resolution through guided discussions, documents session outcomes, and issues completion certificates. Must remain neutral while encouraging reconciliation even in mutual consent cases."
+    },
+    {
+      "uid": "rol_003",
+      "id": "family_court_judge",
+      "name": "Family Court Judge",
+      "category": "Government Official",
+      "description": "Judicial officer presiding over contested divorce cases and complex marital disputes. Reviews legal petitions, conducts hearings, evaluates evidence and witness testimonies, makes custody and asset division decisions, and issues legally binding court decrees. Handles cases where Union Council route is not viable or when legal disputes arise."
+    },
+    {
+      "uid": "rol_004",
+      "id": "nadra_officer",
+      "name": "NADRA Officer",
+      "category": "Government Official",
+      "description": "Technical specialist managing database updates and certificate issuance for marital status changes. Processes divorce certificates, death registrations, and marriage updates through digital and manual verification. Conducts biometric verification, authenticates supporting documents, updates national database records, and ensures data accuracy across all marital status transitions."
+    },
+    {
+      "uid": "rol_005",
+      "id": "municipal_registration_officer",
+      "name": "Municipal Registration Officer",
+      "category": "Government Official",
+      "description": "Government official verifying marriage eligibility and preventing bigamy cases. Cross-checks divorce certificates, death certificates, and marriage records against multiple databases. Issues marriage permission letters and ensures legal compliance before allowing new marriage registrations. Serves as final verification step before remarriage approval."
+    },
+    {
+      "uid": "rol_006",
+      "id": "medical_officer",
+      "name": "Medical Officer",
+      "category": "Government Official",
+      "description": "Licensed physician responsible for death verification and initial death certificate issuance. Conducts medical examination of deceased, determines cause of death, completes official death certificate forms, verifies family member identities, and provides primary legal documentation establishing death. Available in hospitals and clinics for immediate death certification needs."
+    },
+    {
+      "uid": "rol_007",
+      "id": "civil_registrar",
+      "name": "Civil Registrar",
+      "category": "Government Official",
+      "description": "Government official managing official death registration and permanent record creation. Processes hospital death certificates, verifies deceased identity documentation, coordinates witness statements, maintains civil registration databases, and issues official death registration numbers. Creates permanent government death records required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "rol_008",
+      "id": "court_clerk",
+      "name": "Court Clerk",
+      "category": "Government Official",
+      "description": "Administrative staff supporting court proceedings for inheritance and property disputes. Manages case filing, schedules hearings, maintains court records, processes succession certificate applications, and coordinates between parties and legal representatives. Handles documentation for complex inheritance cases that often delay remarriage processes."
+    },
+    {
+      "uid": "rol_009",
+      "id": "husbands_lawyer",
+      "name": "Husband's Lawyer",
+      "category": "Legal Professional",
+      "description": "Legal professional representing the male spouse in divorce proceedings, property disputes, or complex remarriage cases. Provides legal strategy for protecting husband's interests, handles court representation for asset division and custody matters, assists with documentation for polygamous marriage requirements, and ensures compliance with legal procedures. Particularly important in contested divorces where interests of both parties may conflict and require separate legal advocacy."
+    },
+    {
+      "uid": "rol_010",
+      "id": "wifes_lawyer",
+      "name": "Wife's Lawyer",
+      "category": "Legal Professional",
+      "description": "Legal professional representing the female spouse, particularly crucial in Pakistan's legal system where women face additional procedural barriers. Specializes in women's rights protection, Khula proceedings, property rights advocacy, and challenging unfair divorce terms. Provides essential support for navigating complex legal procedures that women often find difficult to handle independently, especially when facing family pressure or uncooperative spouses."
+    },
+    {
+      "uid": "rol_011",
+      "id": "document_agent",
+      "name": "Document Agent",
+      "category": "Support Role",
+      "description": "Unofficial intermediary who assists people in navigating bureaucratic processes and document preparation. Helps with form completion, queue management, fee payment, and coordination between different offices. Often used by illiterate citizens or those unfamiliar with government procedures, though not officially part of the system."
+    },
+    {
+      "uid": "rol_012",
+      "id": "husband_seeking_divorce",
+      "name": "Husband Seeking Divorce",
+      "category": "Applicant",
+      "description": "Male spouse initiating divorce proceedings with relatively straightforward access to Union Council processes. Can file for divorce (Talaq) with simpler documentation requirements and typically faces fewer procedural barriers. Has legal authority to initiate divorce unilaterally in most cases, though still must complete mandatory arbitration sessions and waiting periods before remarriage eligibility."
+    },
+    {
+      "uid": "rol_013",
+      "id": "wife_seeking_divorce",
+      "name": "Wife Seeking Divorce",
+      "category": "Applicant",
+      "description": "Female spouse seeking divorce who faces additional procedural and social barriers in Pakistan's patriarchal system. May need to pursue Khula through court proceedings with legal representation, provide justification for divorce request, and overcome potential family/social opposition. Often requires more extensive documentation and faces longer processing times due to additional verification requirements and potential spouse non-cooperation."
+    },
+    {
+      "uid": "rol_014",
+      "id": "widowed_person",
+      "name": "Widowed Person",
+      "category": "Applicant",
+      "description": "Individual whose spouse has died and needs to update their legal status for potential remarriage. Must manage death certification, official registration, NADRA status updates, and often complex inheritance documentation. Faces additional challenges when family disputes arise over property rights or when opposing relatives block access to necessary documents."
+    },
+    {
+      "uid": "rol_015",
+      "id": "male_remarriage_candidate",
+      "name": "Male Remarriage Candidate",
+      "category": "Applicant",
+      "description": "Previously married man seeking new marriage after divorce or spousal death. Must complete all prior legal processes and obtain eligibility verification. If seeking additional marriage (up to 4 wives permitted under Islamic law), requires consent documentation from existing wife/wives, proof of financial capability to support multiple families, and additional verification procedures. Faces scrutiny to ensure polygamy compliance with legal requirements including spousal consent and adequate financial support."
+    },
+    {
+      "uid": "rol_016",
+      "id": "female_remarriage_candidate",
+      "name": "Female Remarriage Candidate",
+      "category": "Applicant",
+      "description": "Previously married woman seeking new marriage after divorce or spousal death. Must complete all prior legal processes including proper Iddat completion verification and obtain eligibility documentation. Faces additional social scrutiny and potential family pressure regarding remarriage decisions. May encounter more complex verification procedures and social barriers, particularly regarding property rights from previous marriage and custody arrangements for existing children."
+    },
+    {
+      "uid": "rol_017",
+      "id": "existing_wife_consent_provider",
+      "name": "Existing Wife (Consent Provider)",
+      "category": "Stakeholder",
+      "description": "Current wife who must legally consent to her husband's additional marriage under Islamic polygamy laws. Required to provide formal written consent documentation, appear before authorities for verification, and confirm understanding of polygamous marriage implications. Must verify her consent is given freely without coercion. Her approval is mandatory legal requirement before husband can proceed with additional marriage registration, making her a critical stakeholder in the polygamous marriage verification process."
+    },
+    {
+      "uid": "rol_018",
+      "id": "imam_marriage_officiant",
+      "name": "Imam (Marriage Officiant)",
+      "category": "Religious Official",
+      "description": "Religious leader authorized to conduct Islamic marriage ceremonies (Nikah) and handle official marriage documentation. Performs the religious ceremony, ensures Islamic requirements are met, witnesses the marriage contract signing, completes Nikah Nama forms with bride and groom details, collects required documents from both parties, and submits complete marriage documentation to Union Council for official registration. Serves as both religious officiant and administrative coordinator, ensuring marriage meets both Islamic and legal requirements."
+    },
+    {
+      "uid": "rol_019",
+      "id": "children_custody_subjects",
+      "name": "Children (Custody Subjects)",
+      "category": "Affected Party",
+      "description": "Minor children whose custody arrangements must be determined during divorce proceedings and verified before parents' remarriage. Their welfare and custody status affects court decisions, arbitration outcomes, and remarriage eligibility verification. Custody arrangements include decisions about primary residence, visitation rights, financial support obligations, and educational responsibilities. Children's best interests are legally prioritized in divorce proceedings, and proper custody documentation is required before divorced parents can proceed with remarriage registration."
+    },
+    {
+      "uid": "rol_020",
+      "id": "witness",
+      "name": "Witness",
+      "category": "Support Role",
+      "description": "Individual providing testimony or verification during various legal processes including divorce filing, death registration, and marriage ceremonies. Must have valid CNIC and be willing to appear in person at offices or courts. Often family members or community members whose availability can create scheduling delays in the overall process."
+    }
+  ],
+
+  "relationships": {
+    "role_step": [
+      {
+        "role_uid": "rol_001",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_011",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_001"
+      },
+      {
+        "role_uid": "rol_002",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_002"
+      },
+      {
+        "role_uid": "rol_003",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_008",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_009",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_010",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_019",
+        "step_uid": "stp_003"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_012",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_013",
+        "step_uid": "stp_004"
+      },
+      {
+        "role_uid": "rol_005",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_005"
+      },
+      {
+        "role_uid": "rol_006",
+        "step_uid": "stp_006"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_006"
+      },
+      {
+        "role_uid": "rol_007",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_007"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_008"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_008"
+      },
+      {
+        "role_uid": "rol_008",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_014",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_009",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_010",
+        "step_uid": "stp_009"
+      },
+      {
+        "role_uid": "rol_005",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_017",
+        "step_uid": "stp_010"
+      },
+      {
+        "role_uid": "rol_018",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_001",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_020",
+        "step_uid": "stp_011"
+      },
+      {
+        "role_uid": "rol_004",
+        "step_uid": "stp_012"
+      },
+      {
+        "role_uid": "rol_015",
+        "step_uid": "stp_012"
+      },
+      {
+        "role_uid": "rol_016",
+        "step_uid": "stp_012"
+      }
+    ]
+  }
+}

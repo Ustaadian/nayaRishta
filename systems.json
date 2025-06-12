@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "title": "Naya Rishta Systems",
+    "description": "All systems in Pakistan's remarriage process",
+    "version": "2.0",
+    "created": "2025-06-12",
+    "updated": "2025-06-12"
+  },
+
+  "systems": [
+    {
+      "uid": "sys_001",
+      "id": "union_council_divorce",
+      "name": "Union Council Divorce Filing",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Multiple visits required, both spouses must appear, witness coordination needed",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form-filling literacy helpful, but staff can assist illiterate users",
+      "minimum_time_days": 3,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Complete divorce application filing at local Union Council office. Includes filling out Form-A (divorce application), providing CNICs of both spouses, arranging 2 witnesses with valid CNICs, paying filing fees, getting initial case number assignment. Staff manually enters data into ledger books. Both spouses must physically appear and sign documents. Initiates mandatory 3 months + 10 days Iddat period calculation. Office hours typically 9am-4pm, closed Fridays. Creates official divorce case file and begins arbitration council notification process."
+    },
+    {
+      "uid": "sys_002",
+      "id": "nadra_divorce_certificate",
+      "name": "NADRA Divorce Certificate",
+      "category": "Divorce",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Straightforward application but requires prior Union Council completion",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online portal requires digital literacy, NADRA centers needed for verification",
+      "minimum_time_days": 7,
+      "average_time_level": 3,
+      "average_time_description": "Up to 1 month",
+      "description": "Official divorce certificate issuance after Union Council process completion. Includes online application through NADRA portal with divorce case details, uploading Union Council completion documents, paying certificate fees online, biometric verification at NADRA center, manual document verification by NADRA staff, database update of marital status from married to divorced, printing and collection of official divorce certificate. Certificate required for all future marriage registrations and legal proceedings. Multiple NADRA centers available but verification queues cause delays."
+    },
+    {
+      "uid": "sys_003",
+      "id": "family_court_divorce",
+      "name": "Family Court Divorce",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 5,
+      "complexity_reason": "Court proceedings required, lawyer needed, multiple hearings, legal documentation complex",
+      "accessibility_level": 4,
+      "accessibility_reason": "Legal representation recommended, court procedures difficult for common people",
+      "minimum_time_days": 30,
+      "average_time_level": 4,
+      "average_time_description": "Up to 3 months",
+      "description": "Court-based divorce proceedings for contested cases or when Union Council route not available. Includes filing petition with court, paying court fees, serving notice to spouse, attending multiple hearings, presenting evidence and arguments, waiting for court decree, obtaining certified copies of judgment. Requires lawyer for navigation of legal procedures. Court schedules often delayed. Necessary for cases where mutual consent not available or Union Council jurisdiction issues exist."
+    },
+    {
+      "uid": "sys_004",
+      "id": "arbitration_council",
+      "name": "Arbitration Council",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Mandatory 3 sessions, both parties must attend, scheduling coordination required",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic communication skills needed, staff facilitates process",
+      "minimum_time_days": 45,
+      "average_time_level": 3,
+      "average_time_description": "Up to 1 month",
+      "description": "Mandatory reconciliation process after Union Council filing. Includes automatic scheduling of 3 sessions over 30-45 days, both spouses must attend each session, arbitrators attempt reconciliation through discussion, documenting session outcomes, issuing completion certificate if reconciliation fails. Sessions conducted at Union Council premises. Even when both parties want divorce, all 3 sessions are mandatory. Completion certificate required before final divorce processing."
+    },
+    {
+      "uid": "sys_005",
+      "id": "municipal_marriage_permission",
+      "name": "Municipal Marriage Permission",
+      "category": "Divorce",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Document verification process, single office visit usually sufficient",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic document handling, staff assists with verification",
+      "minimum_time_days": 3,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Pre-marriage verification system to confirm divorce completion before new marriage registration. Includes presenting divorce certificate from NADRA, Union Council completion documents, Arbitration Council certificate, identity verification of applicant, checking against marriage records database, issuing permission letter for new marriage registration. Required to prevent bigamy cases. Single office process but depends on having all prior documentation complete."
+    },
+    {
+      "uid": "sys_006",
+      "id": "hospital_death_certificate",
+      "name": "Hospital Death Certificate",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Medical verification required, form completion needed",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form filling, medical staff assists with process",
+      "minimum_time_days": 1,
+      "average_time_level": 1,
+      "average_time_description": "1-3 days",
+      "description": "Initial death certificate issuance from hospital or clinic where death occurred. Includes medical verification of death by doctor, completing death certificate form with cause of death, family member identification and signature, paying certificate fees, receiving initial death certificate copy. Required for all subsequent death-related processes. Available 24/7 in major hospitals but limited hours in smaller facilities."
+    },
+    {
+      "uid": "sys_007",
+      "id": "civil_registration_death",
+      "name": "Civil Registration Death",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Multiple documents required, witness statements, official registration process",
+      "accessibility_level": 2,
+      "accessibility_reason": "Form completion assistance available, but multiple office visits needed",
+      "minimum_time_days": 7,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Official death registration with local civil registration authority. Includes presenting hospital death certificate, providing deceased's CNIC and family details, arranging witness statements, filling registration forms, paying registration fees, receiving official death registration number. Creates permanent death record in government database. Required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "sys_008",
+      "id": "nadra_death_registration",
+      "name": "NADRA Death Registration",
+      "category": "Death",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Straightforward process but requires prior death certificates",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online application possible but NADRA center visit required for verification",
+      "minimum_time_days": 5,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "NADRA database update to mark person as deceased and update survivor's marital status. Includes online or in-person application, uploading death certificates, providing survivor's CNIC, biometric verification at NADRA center, database status update from married to widowed, issuing updated CNIC showing widowed status. Essential for remarriage eligibility and legal documentation."
+    },
+    {
+      "uid": "sys_009",
+      "id": "property_inheritance",
+      "name": "Property Inheritance Documentation",
+      "category": "Death",
+      "type": "Manual",
+      "complexity_level": 4,
+      "complexity_reason": "Complex legal procedures, multiple stakeholders, potential family disputes",
+      "accessibility_level": 4,
+      "accessibility_reason": "Legal assistance recommended, complex documentation processes",
+      "minimum_time_days": 30,
+      "average_time_level": 4,
+      "average_time_description": "Up to 3 months",
+      "description": "Legal documentation of inheritance and property transfer after death. Includes obtaining succession certificate from court, property valuation and documentation, resolving family disputes over inheritance, transferring property titles, updating ownership records, obtaining legal heir certificates. Often becomes contentious with opposing family members blocking access to documents. Can significantly delay remarriage process for widows."
+    },
+    {
+      "uid": "sys_010",
+      "id": "union_council_marriage",
+      "name": "Union Council Marriage Registration",
+      "category": "New Marriage",
+      "type": "Manual",
+      "complexity_level": 2,
+      "complexity_reason": "Document verification needed, witness coordination, but straightforward process",
+      "accessibility_level": 2,
+      "accessibility_reason": "Basic form completion, staff assistance available",
+      "minimum_time_days": 1,
+      "average_time_level": 1,
+      "average_time_description": "Same day to 3 days",
+      "description": "Official marriage registration and certificate issuance. Includes presenting eligibility documents (divorce certificate or death certificate), providing CNICs of bride and groom, arranging 2 witnesses with valid CNICs, completing Nikah Nama forms, paying registration fees, receiving marriage certificate. Requires pre-verification that both parties are legally eligible to marry. Same-day processing possible if all documents complete."
+    },
+    {
+      "uid": "sys_011",
+      "id": "pre_marriage_verification",
+      "name": "Pre-Marriage Verification",
+      "category": "New Marriage",
+      "type": "Manual",
+      "complexity_level": 3,
+      "complexity_reason": "Cross-checking multiple databases, document authentication required",
+      "accessibility_level": 3,
+      "accessibility_reason": "Multiple office coordination needed, some technical verification processes",
+      "minimum_time_days": 5,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "Comprehensive verification system to confirm both parties are legally eligible for marriage. Includes checking NADRA database for current marital status, verifying divorce certificates authenticity, confirming death certificates for widowed applicants, cross-referencing with Union Council records, checking for any pending legal cases, issuing eligibility confirmation letter. Prevents bigamy and ensures legal compliance before marriage registration."
+    },
+    {
+      "uid": "sys_012",
+      "id": "nadra_marriage_update",
+      "name": "NADRA Marriage Update",
+      "category": "New Marriage",
+      "type": "Hybrid",
+      "complexity_level": 2,
+      "complexity_reason": "Simple update process but requires marriage certificate verification",
+      "accessibility_level": 3,
+      "accessibility_reason": "Online application available but center visit needed for verification",
+      "minimum_time_days": 7,
+      "average_time_level": 2,
+      "average_time_description": "Up to 2 weeks",
+      "description": "NADRA database update to reflect new marriage and issue updated CNICs. Includes presenting marriage certificate from Union Council, online or in-person application for CNIC update, biometric verification at NADRA center, database marital status update, printing new CNICs showing married status and spouse details. Final step to complete legal marriage process and update all official records."
+    }
+  ],
+
+  "relationships": {
+    "step_system": [
+      {
+        "step_uid": "stp_001",
+        "system_uid": "sys_001"
+      },
+      {
+        "step_uid": "stp_002",
+        "system_uid": "sys_004"
+      },
+      {
+        "step_uid": "stp_003",
+        "system_uid": "sys_003"
+      },
+      {
+        "step_uid": "stp_004",
+        "system_uid": "sys_002"
+      },
+      {
+        "step_uid": "stp_005",
+        "system_uid": "sys_005"
+      },
+      {
+        "step_uid": "stp_006",
+        "system_uid": "sys_006"
+      },
+      {
+        "step_uid": "stp_007",
+        "system_uid": "sys_007"
+      },
+      {
+        "step_uid": "stp_008",
+        "system_uid": "sys_008"
+      },
+      {
+        "step_uid": "stp_009",
+        "system_uid": "sys_009"
+      },
+      {
+        "step_uid": "stp_010",
+        "system_uid": "sys_011"
+      },
+      {
+        "step_uid": "stp_011",
+        "system_uid": "sys_010"
+      },
+      {
+        "step_uid": "stp_012",
+        "system_uid": "sys_012"
+      }
+    ]
+  }
+}

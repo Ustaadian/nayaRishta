@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "title": "Naya Rishta Documents",
+    "description": "All documents in Pakistan's remarriage system",
+    "version": "2.0",
+    "created": "2025-06-12",
+    "updated": "2025-06-12"
+  },
+
+  "documents": [
+    {
+      "uid": "doc_001",
+      "id": "form_a_divorce_application",
+      "name": "Form-A Divorce Application",
+      "type": "Input",
+      "category": "Form",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Single_use",
+      "description": "Initial divorce application form that must be completed and submitted to Union Council to start divorce proceedings. Requires both spouses' signatures and witness information."
+    },
+    {
+      "uid": "doc_002",
+      "id": "husband_cnic",
+      "name": "Husband's CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity card of the male spouse required for all marriage and divorce proceedings as primary identification document."
+    },
+    {
+      "uid": "doc_003",
+      "id": "wife_cnic",
+      "name": "Wife's CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity card of the female spouse required for all marriage and divorce proceedings as primary identification document."
+    },
+    {
+      "uid": "doc_004",
+      "id": "witness_cnic",
+      "name": "Witness CNIC",
+      "type": "Input",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "National identity cards of witnesses (minimum 2) required to verify and authenticate legal proceedings including divorce filing and marriage registration."
+    },
+    {
+      "uid": "doc_005",
+      "id": "marriage_certificate",
+      "name": "Marriage Certificate",
+      "type": "Both",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Permanent",
+      "description": "Official marriage registration certificate proving legal marriage. Required as input for divorce proceedings and generated as output from marriage registration process."
+    },
+    {
+      "uid": "doc_006",
+      "id": "divorce_case_number",
+      "name": "Divorce Case Number",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "Permanent",
+      "description": "Unique case identification number assigned by Union Council upon divorce application filing. Required to track divorce proceedings through all subsequent steps."
+    },
+    {
+      "uid": "doc_007",
+      "id": "arbitration_completion_certificate",
+      "name": "Arbitration Completion Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_007",
+      "validity_period": "Permanent",
+      "description": "Certificate confirming completion of mandatory 3 reconciliation sessions. Required before divorce can be finalized regardless of whether reconciliation was successful."
+    },
+    {
+      "uid": "doc_008",
+      "id": "court_divorce_decree",
+      "name": "Court Divorce Decree",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_003",
+      "validity_period": "Permanent",
+      "description": "Legally binding court order finalizing divorce in contested cases. Required for NADRA certificate issuance when divorce is processed through court system."
+    },
+    {
+      "uid": "doc_009",
+      "id": "nadra_divorce_certificate",
+      "name": "NADRA Divorce Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "Permanent",
+      "description": "Official divorce certificate issued by NADRA updating national database and confirming divorced status. Essential document for remarriage eligibility verification."
+    },
+    {
+      "uid": "doc_010",
+      "id": "marriage_permission_letter",
+      "name": "Marriage Permission Letter",
+      "type": "Output",
+      "category": "Letter",
+      "issuing_authority_uid": "dep_004",
+      "validity_period": "6_months",
+      "description": "Permission letter from municipal office confirming eligibility for new marriage registration. Required to prevent bigamy and ensure legal compliance before Union Council marriage registration."
+    },
+    {
+      "uid": "doc_011",
+      "id": "hospital_death_certificate",
+      "name": "Hospital Death Certificate",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_006",
+      "validity_period": "Permanent",
+      "description": "Initial death certificate issued by medical officer confirming death and cause. Foundation document required for all subsequent death registration and widowhood processes."
+    },
+    {
+      "uid": "doc_012",
+      "id": "civil_death_registration",
+      "name": "Civil Death Registration",
+      "type": "Output",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_005",
+      "validity_period": "Permanent",
+      "description": "Official government death registration creating permanent death record with registration number. Required for legal proceedings and inheritance matters."
+    },
+    {
+      "uid": "doc_013",
+      "id": "updated_cnic_widowed",
+      "name": "Updated CNIC (Widowed Status)",
+      "type": "Output",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "Updated national identity card showing widowed marital status. Essential for establishing remarriage eligibility and legal status verification."
+    },
+    {
+      "uid": "doc_014",
+      "id": "succession_certificate",
+      "name": "Succession Certificate",
+      "type": "Output",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_003",
+      "validity_period": "Permanent",
+      "description": "Court-issued certificate establishing legal heirs and their inheritance rights. Required for property transfer and resolving inheritance disputes."
+    },
+    {
+      "uid": "doc_015",
+      "id": "eligibility_verification_letter",
+      "name": "Eligibility Verification Letter",
+      "type": "Output",
+      "category": "Letter",
+      "issuing_authority_uid": "dep_004",
+      "validity_period": "6_months",
+      "description": "Official verification letter confirming both parties are legally eligible for marriage. Required for Union Council marriage registration to prevent bigamy and ensure legal compliance."
+    },
+    {
+      "uid": "doc_016",
+      "id": "nikah_nama",
+      "name": "Nikah Nama (Marriage Contract)",
+      "type": "Both",
+      "category": "Legal",
+      "issuing_authority_uid": "dep_008",
+      "validity_period": "Permanent",
+      "description": "Islamic marriage contract completed during Nikah ceremony and submitted to Union Council for official registration. Combines religious and legal marriage requirements."
+    },
+    {
+      "uid": "doc_017",
+      "id": "updated_cnic_married",
+      "name": "Updated CNIC (Married Status)",
+      "type": "Output",
+      "category": "Identity",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "10_years",
+      "description": "Updated national identity cards for both spouses showing married status and spouse information. Final step completing legal marriage process and database updates."
+    },
+    {
+      "uid": "doc_018",
+      "id": "existing_wife_consent_form",
+      "name": "Existing Wife Consent Form",
+      "type": "Input",
+      "category": "Form",
+      "issuing_authority_uid": "dep_001",
+      "validity_period": "6_months",
+      "description": "Formal written consent from existing wife(s) for husband's additional marriage under Islamic polygamy laws. Must be verified to ensure consent is given freely without coercion."
+    },
+    {
+      "uid": "doc_019",
+      "id": "financial_capability_certificate",
+      "name": "Financial Capability Certificate",
+      "type": "Input",
+      "category": "Certificate",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "3_months",
+      "description": "Certificate from financial institution confirming man's ability to financially support multiple families. Required for additional marriage approval under Islamic polygamy laws."
+    },
+    {
+      "uid": "doc_020",
+      "id": "polygamy_limit_verification",
+      "name": "Polygamy Limit Verification",
+      "type": "Both",
+      "category": "Administrative",
+      "issuing_authority_uid": "dep_002",
+      "validity_period": "Single_use",
+      "description": "Database verification confirming man has not exceeded Islamic law limit of 4 wives. Essential check before approving additional marriage registration."
+    }
+  ],
+
+  "relationships": {
+    "document_system": [
+      {
+        "document_uid": "doc_001",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_002",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_003",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_004",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_005",
+        "system_uid": "sys_001",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_006",
+        "system_uid": "sys_001",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_006",
+        "system_uid": "sys_004",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_007",
+        "system_uid": "sys_004",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_007",
+        "system_uid": "sys_002",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_008",
+        "system_uid": "sys_003",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_008",
+        "system_uid": "sys_002",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_002",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_005",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_009",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_010",
+        "system_uid": "sys_005",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_010",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_006",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_007",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_011",
+        "system_uid": "sys_008",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_007",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_008",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_012",
+        "system_uid": "sys_009",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_013",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_014",
+        "system_uid": "sys_009",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_015",
+        "system_uid": "sys_011",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_015",
+        "system_uid": "sys_010",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_016",
+        "system_uid": "sys_010",
+        "relationship_type": "both"
+      },
+      {
+        "document_uid": "doc_017",
+        "system_uid": "sys_012",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_005",
+        "system_uid": "sys_012",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_018",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_019",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_020",
+        "system_uid": "sys_011",
+        "relationship_type": "both"
+      }
+    ],
+
+    "document_role": [
+      {
+        "document_uid": "doc_001",
+        "role_uid": "rol_012",
+        "relationship_type": "initiates"
+      },
+      {
+        "document_uid": "doc_001",
+        "role_uid": "rol_013",
+        "relationship_type": "initiates"
+      },
+      {
+        "document_uid": "doc_002",
+        "role_uid": "rol_012",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_002",
+        "role_uid": "rol_015",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_003",
+        "role_uid": "rol_013",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_003",
+        "role_uid": "rol_016",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_004",
+        "role_uid": "rol_020",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_006",
+        "role_uid": "rol_001",
+        "relationship_type": "assigns"
+      },
+      {
+        "document_uid": "doc_007",
+        "role_uid": "rol_002",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_008",
+        "role_uid": "rol_003",
+        "relationship_type": "authorizes"
+      },
+      {
+        "document_uid": "doc_009",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_010",
+        "role_uid": "rol_005",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_011",
+        "role_uid": "rol_006",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_012",
+        "role_uid": "rol_007",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_013",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_014",
+        "role_uid": "rol_003",
+        "relationship_type": "authorizes"
+      },
+      {
+        "document_uid": "doc_015",
+        "role_uid": "rol_005",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_016",
+        "role_uid": "rol_018",
+        "relationship_type": "completes"
+      },
+      {
+        "document_uid": "doc_017",
+        "role_uid": "rol_004",
+        "relationship_type": "issues"
+      },
+      {
+        "document_uid": "doc_018",
+        "role_uid": "rol_017",
+        "relationship_type": "provides"
+      },
+      {
+        "document_uid": "doc_019",
+        "role_uid": "rol_015",
+        "relationship_type": "obtains"
+      },
+      {
+        "document_uid": "doc_020",
+        "role_uid": "rol_004",
+        "relationship_type": "verifies"
+      }
+    ],
+
+    "document_process": [
+      {
+        "document_uid": "doc_001",
+        "process_uid": "prc_001",
+        "relationship_type": "initiates_process"
+      },
+      {
+        "document_uid": "doc_009",
+        "process_uid": "prc_001",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_011",
+        "process_uid": "prc_002",
+        "relationship_type": "initiates_process"
+      },
+      {
+        "document_uid": "doc_013",
+        "process_uid": "prc_002",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_016",
+        "process_uid": "prc_003",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_003",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_015",
+        "process_uid": "prc_004",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_004",
+        "relationship_type": "completes_process"
+      },
+      {
+        "document_uid": "doc_018",
+        "process_uid": "prc_005",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_019",
+        "process_uid": "prc_005",
+        "relationship_type": "enables_process"
+      },
+      {
+        "document_uid": "doc_017",
+        "process_uid": "prc_005",
+        "relationship_type": "completes_process"
+      }
+    ]
+  }
+}_uid": "sys_008",
+        "relationship_type": "generated_output"
+      },
+      {
+        "document_uid": "doc_013",
+        "system_uid": "sys_011",
+        "relationship_type": "required_input"
+      },
+      {
+        "document_uid": "doc_013",
+        "system

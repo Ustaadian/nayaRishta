@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Naya Rishta Departments",
+    "description": "All departments in Pakistan's remarriage system",
+    "version": "2.0",
+    "created": "2025-06-12",
+    "updated": "2025-06-12"
+  },
+
+  "departments": [
+    {
+      "uid": "dep_001",
+      "id": "union_council",
+      "name": "Union Council",
+      "description": "Local government administrative unit responsible for marriage and divorce registration at the grassroots level. Handles initial divorce application filing, marriage registrations for all types including first marriages and remarriages, witness coordination, and maintaining local marriage and divorce records. Serves as the primary interface between citizens and government for marital status changes. Union Councils operate in every locality across Pakistan, making them the most accessible government department for marriage-related services. They coordinate with arbitration councils for reconciliation processes and serve as the starting point for most marriage and divorce procedures."
+    },
+    {
+      "uid": "dep_002",
+      "id": "nadra",
+      "name": "NADRA (National Database and Registration Authority)",
+      "description": "Federal agency managing Pakistan's national identity database and all CNIC-related services. Responsible for updating marital status in the national database, issuing divorce certificates, death registration updates, and marriage status updates across all processes. NADRA serves as the central verification hub for marital status authentication, preventing bigamy through database cross-checks, and maintaining accurate citizen records. Their hybrid digital-manual systems handle certificate issuance, biometric verification, and database updates that are essential for legal compliance across all marriage and divorce processes. NADRA's role is critical as their certificates and database updates are required for legal validity of all marital status changes."
+    },
+    {
+      "uid": "dep_003",
+      "id": "family_courts",
+      "name": "Family Courts",
+      "description": "Specialized judicial department handling contested divorce cases, complex marital disputes, and legal proceedings requiring court intervention. Family Courts manage cases where Union Council procedures are insufficient, including contested divorces, Khula proceedings initiated by women, custody disputes involving children, and asset division conflicts. They conduct formal hearings, evaluate legal evidence, issue binding court decrees, and handle appeals from lower-level decisions. Family Courts also oversee inheritance and property disputes that can affect remarriage eligibility, particularly in widowhood cases where succession certificates are required. Their involvement typically extends process timelines significantly but provides legal recourse for complex marital situations."
+    },
+    {
+      "uid": "dep_004",
+      "id": "municipal_corporation",
+      "name": "Municipal Corporation",
+      "description": "Local government department responsible for marriage permission verification and preventing illegal marriages within their jurisdiction. Municipal offices serve as the final verification checkpoint before marriage registration, cross-checking divorce certificates, death certificates, and marriage records to ensure legal compliance and prevent bigamy cases. They maintain local marriage databases, coordinate with multiple government departments for document verification, and issue marriage permission letters required for Union Council registration. Municipal Corporations play a crucial role in the remarriage process by ensuring all prior legal requirements have been properly completed before allowing new marriage registration."
+    },
+    {
+      "uid": "dep_005",
+      "id": "civil_registration_department",
+      "name": "Civil Registration Department",
+      "description": "Government department managing vital statistics registration including births, deaths, and marriages at the district level. Handles official death registration processes, maintains permanent death records with registration numbers, coordinates witness statement collection, and creates civil registration documentation required for legal proceedings. This department works closely with medical facilities for death certificate processing and provides the official death records that serve as foundation for widowhood status establishment. Their records are essential for inheritance proceedings and remarriage eligibility verification for widowed individuals."
+    },
+    {
+      "uid": "dep_006",
+      "id": "health_department",
+      "name": "Health Department",
+      "description": "Government medical services department responsible for death certification through hospitals, clinics, and medical facilities under their jurisdiction. Medical officers within the Health Department conduct death verification, determine cause of death, complete official death certificate forms, and provide the initial medical documentation that enables all subsequent death-related processes. Health Department facilities operate 24/7 for emergency death certification needs and maintain medical records that support civil registration and legal proceedings. Their role is foundational in the widowhood process as their death certificates are required for all subsequent legal and administrative procedures."
+    },
+    {
+      "uid": "dep_007",
+      "id": "arbitration_council",
+      "name": "Arbitration Council",
+      "description": "Specialized mediation department within the Union Council system responsible for mandatory reconciliation sessions during divorce proceedings. Comprised of trained mediators who conduct compulsory reconciliation attempts, facilitate communication between divorcing parties, document session outcomes, and issue completion certificates required for divorce finalization. Arbitration Councils must complete 3 mandatory sessions over 30-45 days regardless of mutual consent, representing a significant component of the divorce timeline. Their role balances family preservation efforts with legal requirements, serving as a mandatory checkpoint in the divorce process before final legal dissolution can proceed."
+    },
+    {
+      "uid": "dep_008",
+      "id": "religious_affairs_department",
+      "name": "Religious Affairs Department",
+      "description": "Government department overseeing religious compliance and Islamic law adherence in marriage procedures. Coordinates with mosques and religious institutions for marriage ceremony oversight, ensures Imam certification and authorization for conducting Nikah ceremonies, and manages religious documentation requirements. This department plays a particularly important role in additional marriage processes where Islamic polygamy law compliance must be verified, including proper consent procedures and religious ceremony authentication. They serve as the bridge between religious traditions and legal requirements, ensuring marriages meet both Islamic and governmental standards."
+    }
+  ]
+}
